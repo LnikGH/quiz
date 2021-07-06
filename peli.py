@@ -17,7 +17,7 @@ while True:
         if answer.lower() == quiz[question]["answer"]:
             score += 1
 
-    print("Score:", score)
+    print(f"Score: {score} out of {len(quiz)}")
     print()
     again = input("Do you want to play again? (Y to play again, N to quit) ")
 
